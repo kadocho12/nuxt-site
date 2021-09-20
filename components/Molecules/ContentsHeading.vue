@@ -40,28 +40,9 @@ export default {
       next();
     });
 
-    // this.$router.afterEach((to, from, next) => {
-    //   this.targets2 = this.$el.querySelectorAll('.js-text-animation');
-    //   this.timing = 100;
-    //   this.scroll = window.scrollY;
-    //   this.height = window.innerHeight;
-    //   // console.log(this.targets2);
-
-    //   this.targets2.forEach((target2) => {
-    //     // this.pos = target2.getBoundingClientRect().top + this.scroll;
-    //     // if (this.scroll > this.pos - this.height + this.timing) {
-    //       target2.classList.add('is-active');
-    //       // console.log(target2);
-    //       console.log(target2.classList);
-    //       // console.log(target2.tagName);
-    //     // }
-    //   });
-    // });
-
     this.handleScroll();
 
     window.addEventListener("scroll", this.handleScroll);
-    // window.addEventListener("load", this.handleScroll);
   },
   methods: {
     handleScroll() {
