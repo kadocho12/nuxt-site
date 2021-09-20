@@ -25,7 +25,7 @@
               <a class="p-tel" href="tel:000-0000-0000">000-0000-0000</a>
             </div>
             <div class="p-contact__button">
-              <ButtonComponent white link="contact">お問い合わせはこちら</ButtonComponent>
+              <ButtonComponent white link="/contact">お問い合わせはこちら</ButtonComponent>
             </div>
           </div>
         </div>
